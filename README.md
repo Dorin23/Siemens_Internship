@@ -1,7 +1,6 @@
 # Siemens Java Internship
 
 This is a Spring Boot CRUD application implemented as part of the Siemens internship challenge.  
-The goal was to refactor and improve a basic application while ensuring code quality, validation, proper status codes, and testing.
 
 ---
 
@@ -13,7 +12,6 @@ The goal was to refactor and improve a basic application while ensuring code qua
 - Thread-safe logic and exception handling
 - Proper HTTP status codes (200, 201, 400, 404, 204)
 - Unit, integration and performance tests with JUnit 5
-- In-memory H2 database (no setup required)
 - Manual testing via Postman (screenshots available)
 
 ---
@@ -22,9 +20,7 @@ The goal was to refactor and improve a basic application while ensuring code qua
 
 - Java 17
 - Spring Boot
-- Spring Web + Validation
 - Spring Data JPA
-- H2 Database
 - JUnit 5
 - Postman
 
@@ -32,11 +28,21 @@ The goal was to refactor and improve a basic application while ensuring code qua
 
 ## 🚀 How to Run
 
+### ✅ Option 1: With IntelliJ (recommended)
+
+1. Open project in IntelliJ IDEA
+2. Locate the main class: InternshipApplication.java
+3. Right-click → **Run 'InternshipApplication'**
+4. Wait until console shows: Tomcat started on port(s): 8080
+5. 5. Open in browser or Postman: http://localhost:8080/api/items
+
+### ✅ Option 2: From terminal (Maven required)
+
 ```bash
 mvn spring-boot:run
 ```
 
-🔗 API Endpoints
+## 🔗 API Endpoints
 
 | Method | Endpoint             | Description                       |
 | ------ | -------------------- | --------------------------------- |
@@ -71,4 +77,7 @@ mvn spring-boot:run
 ### 🔹 After Delete Item
 ![Get Items](Siemens/Screnshoots/After_delete.png)
 
+👤 Author
+Submitted by: Dorin Pastinaru
+GitHub: https://github.com/Dorin23
 
