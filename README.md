@@ -34,7 +34,7 @@ This is a Spring Boot CRUD application implemented as part of the Siemens intern
 2. Locate the main class: InternshipApplication.java
 3. Right-click → **Run 'InternshipApplication'**
 4. Wait until console shows: Tomcat started on port(s): 8080
-5. 5. Open in browser or Postman: http://localhost:8080/api/items
+5. Open in browser or Postman: http://localhost:8080/api/items
 
 ## 🔗 API Endpoints
 
