@@ -33,4 +33,11 @@ The goal was to refactor and improve a basic application while ensuring code qua
 ## 🚀 How to Run
 
 ```bash
+
+
 mvn spring-boot:run
+
+```
+## 📸 Postman Screenshots
+
+
