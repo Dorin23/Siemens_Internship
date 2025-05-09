@@ -33,12 +33,30 @@ The goal was to refactor and improve a basic application while ensuring code qua
 ## 🚀 How to Run
 
 ```bash
+mvn spring-boot:run
 ```
+
+## 📸 Postman Screenshots
+
+### 🔹 Create New Item
+![Post Item](Siemens/Screnshoots/post.png)
+
 ### 🔹 Get All Items
 ![Get Items](Siemens/Screnshoots/get.png)
-mvn spring-boot:run
 
-```
-## 📸 Postman Screenshots
+### 🔹 Get Item By ID
+![Get Items](Siemens/Screnshoots/GetId.png)
+
+### 🔹 Process Items
+![Get Items](Siemens/Screnshoots/process.png)
+
+### 🔹 Update Item
+![Get Items](Siemens/Screnshoots/put.png)
+
+### 🔹 Delete Item
+![Get Items](Siemens/Screnshoots/delete.png)
+
+### 🔹 After Delete Item
+![Get Items](Siemens/Screnshoots/After_delete.png)
 
 
