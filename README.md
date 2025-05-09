@@ -33,8 +33,9 @@ The goal was to refactor and improve a basic application while ensuring code qua
 ## 🚀 How to Run
 
 ```bash
-
-
+```
+### 🔹 Get All Items
+![Get Items](Siemens/Screnshoots/get.png)
 mvn spring-boot:run
 
 ```
