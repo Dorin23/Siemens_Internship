@@ -36,6 +36,15 @@ This is a Spring Boot CRUD application implemented as part of the Siemens intern
 4. Wait until console shows: Tomcat started on port(s): 8080
 5. Open in browser or Postman: http://localhost:8080/api/items
 
+## 🧪 How to Run Tests
+
+### ✅ With IntelliJ (recommended)
+
+1. Open project in IntelliJ IDEA
+2. In the left-side project panel, navigate to: src/test/java/com/siemens/internship/InternshipApplicationTests.java
+3. Right-click on the class or any test method → Click **Run 'InternshipApplicationTests'**
+4. IntelliJ will compile and execute all unit tests
+
 ## 🔗 API Endpoints
 
 | Method | Endpoint             | Description                       |
