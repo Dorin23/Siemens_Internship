@@ -28,19 +28,13 @@ This is a Spring Boot CRUD application implemented as part of the Siemens intern
 
 ## 🚀 How to Run
 
-### ✅ Option 1: With IntelliJ (recommended)
+### ✅ With IntelliJ (recommended)
 
 1. Open project in IntelliJ IDEA
 2. Locate the main class: InternshipApplication.java
 3. Right-click → **Run 'InternshipApplication'**
 4. Wait until console shows: Tomcat started on port(s): 8080
 5. 5. Open in browser or Postman: http://localhost:8080/api/items
-
-### ✅ Option 2: From terminal (Maven required)
-
-```bash
-mvn spring-boot:run
-```
 
 ## 🔗 API Endpoints
 
