@@ -71,7 +71,9 @@ This is a Spring Boot CRUD application implemented as part of the Siemens intern
 ### 🔹 After Delete Item
 ![Get Items](Siemens/Screnshoots/After_delete.png)
 
+---
+
 👤 Author
-Submitted by: Dorin Pastinaru
-GitHub: https://github.com/Dorin23
+- Submitted by: Dorin Pastinaru
+- GitHub: https://github.com/Dorin23
 
