@@ -1,4 +1,4 @@
-# Siemens Java Internship – Refactoring Project
+# Siemens Java Internship
 
 This is a Spring Boot CRUD application implemented as part of the Siemens internship challenge.  
 The goal was to refactor and improve a basic application while ensuring code quality, validation, proper status codes, and testing.
@@ -35,6 +35,18 @@ The goal was to refactor and improve a basic application while ensuring code qua
 ```bash
 mvn spring-boot:run
 ```
+
+🔗 API Endpoints
+
+| Method | Endpoint             | Description                       |
+| ------ | -------------------- | --------------------------------- |
+| GET    | `/api/items`         | List all items                    |
+| POST   | `/api/items`         | Create new item (with validation) |
+| GET    | `/api/items/{id}`    | Get item by ID                    |
+| PUT    | `/api/items/{id}`    | Update existing item              |
+| DELETE | `/api/items/{id}`    | Delete item                       |
+| GET    | `/api/items/process` | Asynchronously process all items  |
+
 
 ## 📸 Postman Screenshots
 
