@@ -50,7 +50,7 @@ This is a Spring Boot CRUD application implemented as part of the Siemens intern
 | Method | Endpoint             | Description                       |
 | ------ | -------------------- | --------------------------------- |
 | GET    | `/api/items`         | List all items                    |
-| POST   | `/api/items`         | Create new item (with validation) |
+| POST   | `/api/items`         | Create new item  |
 | GET    | `/api/items/{id}`    | Get item by ID                    |
 | PUT    | `/api/items/{id}`    | Update existing item              |
 | DELETE | `/api/items/{id}`    | Delete item                       |
